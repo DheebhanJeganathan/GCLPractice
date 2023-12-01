@@ -4,8 +4,11 @@ public class GCLPractice{
 
 	public static void main (String [] args){
 
-		for(int i = 1; i <= 10; i++){
-			System.out.print(i + " ");
+		int y = 1;
+
+		while(y <= 10){
+			System.out.print(y + " ");
+			y++;
 		}
 	}
 }
